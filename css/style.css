@@ -48,14 +48,31 @@ nav a {
   color: #fffef0;
 }
 
-.hero-container {
-  display: flex;
-  flex-direction: column;
+a {
+  color: black;
+  text-decoration: none;
 }
 
-.hero-banner {
+/* Hero */
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #272626;
+}
+
+.hero-container .profile {
+  padding: 15px 0 0 15px;
+  align-self: center;
+}
+
+.profile img {
+  height: 280px;
+  border-radius: 70px;
+}
+
+.hero-container .hero-banner {
   height: 340px;
-  background: url(/images/hero.jpg) no-repeat;
+  background: url(/images/hero-f.jpg) no-repeat;
   background-size: cover;
   width: 100%;
   display: flex;
@@ -93,6 +110,7 @@ nav a {
   padding: 0 10px 0 0;
   margin-right: 40px;
   text-align: end;
+  min-width: 125px;
 }
 
 .work-container {
@@ -152,11 +170,11 @@ nav a {
 }
 
 #image-4 {
-  background-image: url(../images/02-portfolio-4.jpg);
+  background-image: url(../images/futsal.jpg);
 }
 
 #image-5 {
-  background: url(../images/02-portfolio-3.jpg);
+  background-image: url(../images/chess.jpg);
 }
 
 .label {
@@ -179,6 +197,5 @@ nav a {
 
 .social-media {
   display: flex;
-  justify-content: space-around ;
+  justify-content: space-around;
 }
-
