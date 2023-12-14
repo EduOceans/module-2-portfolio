@@ -1,4 +1,4 @@
-# Module-1-Accessibility
+# Module-2-Portfolio
 ![EduOceans](https://img.shields.io/badge/Edu-Oceans-blue)
 
 Welcome to my portfolio repo, where you can have a look at my code and the ways I built my personal website.
